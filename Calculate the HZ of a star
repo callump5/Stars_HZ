@@ -1,0 +1,27 @@
+--- Stage One ---
+Estimate stars absolute luminosity based on the stars apparent visual magnitude
+Step 1) Estimate the stars absolute luminosity based on the  stars apparent magnitude.
+Mv = Absolute Magnitude of the host star
+mv = Apparent Magnitude of the host star
+d = Distance in parsecs from earth
+
+M = m - 5log(d / 10)
+
+Step 2) Calculate Biometric Magnitude
+Mbol = Bolometric Magnitude of the star
+Mv = Absolute magnitude of the star
+BC = Bolometric Correction constant
+
+Mbol = Mv + BC
+
+Step 3) Calculate the absolute luminosity of the host star
+
+Lstar/Lsun = the absolute luminosity of the host star in terms of the absolute luminosity of the sun
+Mbol star = the bolometric magnitude of the host star
+Mbol sun = the bolometric magnitude of the sun = 4.72
+
+2.5 is a constant value used for comparing stellar luminosities -- known as "Pogson's Ratio."
+
+
+
+Lstar/Lsun = 10[Mbol star = Mbol sun] under -2.5
